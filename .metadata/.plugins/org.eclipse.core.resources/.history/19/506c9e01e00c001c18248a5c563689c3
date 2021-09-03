@@ -1,0 +1,26 @@
+package repeticaoMultiploDeQuatro;
+
+public class RepeticaoMultiploDeQuatro {
+
+	public static void main(String[] args) {
+		
+		int contador=100;
+		
+		while (contador>=100){
+			
+			if(contador%4==0) {
+				System.out.println(contador+"- Par");
+			}else {
+				System.out.println(contador+"- Impar");
+			}
+					
+			contador=contador+1;
+						
+			
+		}
+		
+		
+
+	}
+
+}

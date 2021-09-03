@@ -1,0 +1,32 @@
+package repeticaoTabuada;
+
+import java.util.Scanner;
+
+public class RepeticaoTabuada {
+
+	public static void main(String[] args) {
+		
+		int multiplicador, prouto;
+		int multiplicando= 0;
+		
+		System.out.println("TABUDA DA SOFRENCIA");
+		System.out.println(" ");
+		
+		Scanner teclado= new Scanner(System.in);
+		System.out.print("Digite um número: ");
+		multiplicador=teclado.nextInt();
+		
+		
+		teclado.close();
+		
+		while (multiplicando>=10) {
+					
+			produto = multiplicando*multiplicador; 
+			System.out.println("O resultado é: "+ produto);
+			multiplicando=multiplicando+1;
+		}
+
+		
+	}
+
+}

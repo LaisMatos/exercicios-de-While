@@ -1,0 +1,35 @@
+package repeticaoTabuada;
+
+import java.util.Scanner;
+
+public class RepeticaoTabuada {
+
+	public static void main(String[] args) {
+		
+		int multiplicador, total;
+		int multiplicando= 0;
+		
+		System.out.println("TABUDA DA SOFRENCIA");
+		System.out.println(" ");
+		
+		Scanner teclado= new Scanner(System.in);
+		System.out.print("Digite um número: ");
+		multiplicador=teclado.nextInt();
+				
+		teclado.close();
+		
+		total = multiplicando*multiplicador; 
+		
+		while (multiplicando>=10) {
+					
+			
+			
+			System.out.print(multiplicando+" x "+multiplicador+" = "+total);
+			
+			multiplicando=multiplicando+1;
+		}
+
+		
+	}
+
+}

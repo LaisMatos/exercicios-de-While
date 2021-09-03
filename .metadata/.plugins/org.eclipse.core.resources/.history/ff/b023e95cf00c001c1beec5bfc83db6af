@@ -1,0 +1,57 @@
+package repeticaoAreaDaCasa;
+
+import java.util.Scanner;
+
+public class RepeticaoAreaDaCasa {
+
+	public static void main(String[] args) {
+	/*
+	Elaborar um programa que possibilite calcular a área total de uma residência (sala, cozinha, quartos, varanda, etc.). 
+	O programa deve solicitar a entrada do nome, a largura e o comprimento de um determinado cômodo. 
+	Em seguida, deve apresentar a área do cômodo lido e também uma mensagem solicitando ao usuário a confirmação de continuar calculando novos cômodos. 
+	Caso o usuário responda "N", o programa deverá apresentar o valor total calculado da residência e encerrar o programa.
+
+Exemplo de funcionamento:
+
+-------------------------------
+  Calculo de área de uma casa
+-------------------------------
+
+Qual o nome do cômodo? Sala
+Qual a largura? 5
+Qual o comprimento? 4
+A sala tem 20 metros quadrados.
+
+Você deseja calcular mais cômodos(S/N)? S
+
+Qual o nome do cômodo? Cozinha
+Qual a largura? 6
+Qual o comprimento? 3
+A cozinha tem 18 metros quadrados.
+
+Você deseja calcular mais cômodos(S/N)? N
+
+A área total da casa é 38 metros quadrados.
+
+** F I M **
+ */
+		
+		
+		// s é diferente de S, o mesmo serve para o n
+		 double
+		 
+		Scanner teclado= new Scanner(System.in);
+		System.out.println("Qual o cômodo?  ");
+		System.out.println("Qual a largura? ");
+		System.out.println("Qual comprimento? ");
+		System.out.println("A área do cômodo é: ");
+		
+		System.out.println("Deseja calcular mais comodos? ");
+		
+		
+		
+		teclado.close();
+
+	}
+
+}

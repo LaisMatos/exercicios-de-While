@@ -1,0 +1,33 @@
+package repeticaoTabuada;
+
+import java.util.Scanner;
+
+public class RepeticaoTabuada {
+
+	public static void main(String[] args) {
+		
+		int num1, num2, resultado;
+		int contador= 0;
+		
+		System.out.println("TABUDA DA SOFRENCIA");
+		System.out.println(" ");
+		
+		Scanner teclado= new Scanner(System.in);
+		System.out.print("Digite um número: ");
+		num1=teclado.nextInt();
+		System.out.print("Digite outro número: ");
+		num2=teclado.nextInt();
+		
+		teclado.close();
+		
+		while (contador>=10) {
+					
+			(num1*num2)=resultado; 
+			System.out.println(resultado);
+			contador=contador+1;
+		}
+
+		
+	}
+
+}

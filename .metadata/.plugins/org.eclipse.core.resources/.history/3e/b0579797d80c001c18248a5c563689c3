@@ -1,0 +1,23 @@
+package repeticaoDeUmAcem;
+
+public class RepeticaoDeUmAcem {
+
+	public static void main(String[] args) {
+		
+		// contar de 0 a 100 e dizer quando o número for par ou impar
+		int numRepeticao=100;
+		int contador=0;
+		
+		while(contador<=numRepeticao) {
+				
+			System.out.println("Par");
+			contador = contador + 1;
+			
+			
+			
+			
+		}
+		
+	}
+
+}
